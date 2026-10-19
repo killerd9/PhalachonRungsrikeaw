@@ -14,12 +14,15 @@ main            = main.py
 
 # ── Dependencies ─────────────────────────────────────────────────────────────
 requirements =
-    python3,
+    python3==3.10.12,
+    hostpython3==3.10.12,
     kivy,
-    mido,
     Pillow,
-    pyzbar
-
+    pyzbar,
+    zbarcam,
+    xcamera,
+    libzbar,
+    libiconv
 # ── ไอคอน & Splash ──────────────────────────────────────────────────────────
 presplash.color   = #F2F4FA
 
